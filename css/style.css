@@ -1,0 +1,372 @@
+@import url("https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700&display=swap");
+
+:root {
+  --Rojobrillante: rgb(242, 95, 58);
+  --Azuloscuro: rgb(35, 44, 81);
+  --Azulgrisaceooscuro: rgb(143, 148, 167);
+  --Azulmuyoscuro: rgb(29, 30, 37);
+  --Rojomuypálido: rgb(255, 239, 234);
+  --grisclaro: rgb(249, 249, 249);
+}
+* {
+  box-sizing: border-box;
+  color: var(--Azuloscuro);
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+}
+body{
+font-family: "Be Vietnam Pro", sans-serif;
+}
+body {
+  background-image: url(../img/bg-tablet-pattern.svg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: 57rem;
+  background-position-y: -10rem;
+}
+main{
+  background-image: url(../img/bg-tablet-pattern.svg);
+  background-size: 50%;
+  background-repeat: no-repeat;
+  background-position-x: -20rem;
+  background-position-y: 40rem;
+}
+
+header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3em;
+}
+.ul1 {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  gap: 1em;
+}
+a {
+  text-decoration: none;
+}
+
+.menu_burger{
+  display: none;
+}
+body header nav ul li a:hover {
+    color: var(--Rojobrillante);
+}
+.get {
+  border-radius: 1.5em;
+  border: none;
+  background-color: var(--Rojobrillante);
+  color: #fff;
+  padding: 0.5em;
+  font-weight: 700;
+  box-shadow: 0px 0.25em 0.25em rgba(0, 0, 0, 0.25);
+  cursor: pointer; 
+  cursor: hand;
+}
+.primersection {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: space-around;
+  width: 80%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.primersection article {
+  display: flex;
+  flex-wrap: wrap;
+  min-width: 20em;
+  max-width: 25em
+}
+.primersection article img{
+  width: 100%;
+}
+h1 {
+  padding-top:3rem;
+  font-size: 2.5em;
+  margin: auto;
+}
+.primersection article p {
+  width: 100%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: auto;
+}
+.segundosection {
+  display: flex;
+  flex-wrap: wrap;
+  height: fit-content;
+  justify-content: space-around;
+  width: 83%;
+  margin: auto;
+  margin-top: 2rem;
+}
+.segundosection article {
+  min-width: 15em;
+  max-width: 25em;
+  margin: 2rem;
+}
+h2 {
+  font-size: 2em;
+}
+.segundosection article p {
+  padding-top: 1em;
+  padding-bottom: em;
+  margin: auto;
+}
+.number {
+  display: inline-block;
+  text-align: center;
+  border: none;
+  background-color: var(--Rojobrillante);
+  color: var(--grisclaro);
+  position: relative;
+  width: 3.5em;
+  height: 2em;
+  padding: 0.25em;
+  border-radius: 1em;
+  top: 1.75em;
+  right: 4em;
+}
+
+
+.tercersection {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center
+}
+
+.tarjetas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+.card1 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin-left: 2em;
+  margin-top:4em;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3f3f3;
+  text-align: center;
+}
+li{
+list-style-type: none;
+}
+
+.tercersection article div p::before{
+  content: "“";
+}
+.tercersection article div p::after{
+  content: "”";
+}
+.option {
+  position: relative;
+  top: -3em;
+  width: 6em;
+  height: 6em;
+}
+.simplify{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--Rojobrillante);
+  margin-top: 15em;
+  padding: 5em;
+}
+h4{
+  color: #fff;
+  font-size: 1.2em;
+  width: 12em;
+}
+.get2 {
+  border-radius: 1.5em;
+  border: none;
+  background-color: var(--grisclaro);
+  color: var(--Rojobrillante);
+  padding: 0.5em;
+  font-weight: 700;
+  box-shadow: 0px 0.25em 0.25em rgba(0, 0, 0, 0.25);
+  cursor:pointer; 
+  cursor: hand;
+}
+footer{
+  background-color: #000;
+  height: auto;
+}
+.iconoslinkform{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+align-items: center;
+}
+
+.logoeiconos, .foo3{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 15em;
+  margin-right: 3em;
+  margin-left: 3em;
+}
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: space-around;
+  height: auto; 
+  width: 40%;
+}
+.list ul{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  height: 15em;
+  }
+.list ul li{
+display: inline-block;  
+padding-top: 2em;
+}
+
+.list ul li a{
+  color: var(--grisclaro);
+}
+
+footer article section div a{
+  padding-right: .5em;
+}
+
+.fa-brands{
+  color: var(--grisclaro);
+  font-size: 1.5rem;
+}
+.fa-brands:hover{
+  color: var(--Rojobrillante)
+}
+
+.list ul li a:hover{
+  color: var(--Rojobrillante);
+}
+
+/*
+
+}
+
+
+*/
+
+/*
+  align-items: space-around;
+  
+  flex-wrap: wrap;
+
+
+footer article section ul li{
+  
+  padding:0.75em;
+  /*margin-right: 15em;*/
+  /*width: 35%;
+  height: 25%;
+}*/
+/*no funciona en imagenes
+footer section div a img:hover{
+  color: var(--Rojobrillante)
+}*/
+
+
+.foo3{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.mail{
+  border-radius: 2em;
+}
+.copy{
+color: var(--grisclaro);
+text-align: end;
+margin: 2em;
+}
+
+.mail:invalid {
+  background-color: gray;
+color: red;
+}
+
+.valid{
+  color: red;
+  font-style: italic;
+}
+
+@media (max-width: 376px) {
+  .menu_burger{
+    display: block;
+    position: fixed;
+    cursor: pointer;
+    right: 0;
+  }
+
+ .ul1, header button{
+    display: none;
+  }
+.primersection{
+  display: flex;
+  flex-direction: column-reverse;
+  margin-top: 4em;
+}
+.tarjetas{
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+}
+.iconoslinkform{
+  display: flex;
+  flex-direction: column-reverse;
+}
+.logoeiconos{
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-around;
+}
+.logoeiconos div a img{
+  margin: .5rem;
+}
+.copy{
+  text-align: center;
+}
+footer article{
+  display: flex;
+  flex-direction: column;
+}
+
+.list{
+  display: flex;
+  justify-content: center;
+}
+
+
+h3{
+  background-color: var(--Rojomuypálido);
+}
+
+}
